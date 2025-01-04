@@ -73,6 +73,7 @@ function medosmotr(recruit) {
 
 console.log(recruits[0].name, medosmotr(recruits[0]));
 
+// Всем привет бандиты
 // function findFit(recruits) {
 //   return recruits.filter(
 //     (recruit) => recruit.diseases === null && recruit.age < 30
