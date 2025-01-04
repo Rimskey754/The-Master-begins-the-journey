@@ -1,0 +1,190 @@
+body {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  /* размер текста */
+  font-size: 16px;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 300px;
+  align-items: center;
+  border-bottom: 1px solid rgb(31, 30, 30);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  /* жирность */
+  font-weight: 900;
+  color: blueviolet;
+}
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+/* кнопка выхода */
+
+body {
+  background-color: white;
+  /* хуй знает чё делает */
+}
+.icon {
+  height: 20px;
+  width: 50px;
+}
+
+.ticket {
+  margin-right: 600px;
+}
+
+.ticket,
+.profile,
+.logout_button {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  font-size: 24px;
+  padding: 50px 300px;
+}
+
+.card_list {
+  display: flex;
+  justify-content: space-between;
+}
+.card_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-weight: 700;
+}
+.card_discription {
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(168, 168, 168);
+}
+
+.card_more_button {
+  border-radius: 10px;
+  color: rgb(253, 253, 253);
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  transition: 300ms;
+  &:hover {
+    background-color: red;
+    transform: scale(1.2);
+  }
+}
+
+.comeback {
+  margin-left: 280px;
+  /* серый не применился */
+  color: rgb(156, 156, 156);
+  margin-top: 25px;
+  display: flex;
+}
+
+.card_text {
+  margin-left: 300px;
+  margin-top: 30px;
+  display: flex;
+}
+/* флот как оказалось очень важен */
+.card_image {
+  float: left;
+}
+.name_film {
+  font-size: 40px;
+  padding: 30px;
+}
+/* работает */
+.subtitle_under_name {
+  padding: 30px;
+}
+
+/* Расписание */
+.shedule {
+  margin-left: 300px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+/* настройки дней недели и дат */
+.shedule_date {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 290px;
+  margin-right: 900px;
+  color: rgb(124, 124, 124);
+  gap: 20px;
+  border-radius: 20px;
+  background-color: rgb(216, 216, 216);
+}
+
+.room_time {
+  margin-left: 300px;
+  margin-top: 25px;
+}
+/* нужно выделение серым цветом и сделать тоньше обводку*/
+.free_time {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* скопировано у расписания */
+.place {
+  margin-left: 300px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.screen {
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.line_under_scr {
+  margin-left: 300px;
+  height: 5px;
+  width: 450px;
+  background-color: rgb(59, 59, 59);
+}
+
+.row_seats {
+  font-size: 15px;
+  margin-left: 300px;
+}
+
+.button_n {
+  margin-left: 300px;
+  padding: 10px;
+
+  button {
+    background-color: rgb(125, 69, 179);
+    transition: 200ms;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
+
+.pick_placement_container {
+  display: flex;
+  gap: 50px;
+}

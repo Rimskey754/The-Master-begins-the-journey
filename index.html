@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <title>Cinema</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <!-- в один блок объединил спаном -->
+      <div class="logo">
+        <span>ШИФТ </span>
+        <span>CINEMA </span>
+      </div>
+      <nav class="navigation">
+        <div class="profile">
+          <!-- вертикал стайл смещает текст -->
+          <img
+            class="icon"
+            src="icon/user (1).svg"
+            style="vertical-align: top"
+          />
+          <span>Профиль</span>
+        </div>
+        <div class="ticket">
+          <img
+            class="icon"
+            src="icon/ticket-alt.svg"
+            style="vertical-align: top"
+          />
+          <span>Билеты</span>
+        </div>
+      </nav>
+      <div class="logout_button">
+        <img class="icon" src="icon/exit.svg" style="vertical-align: top" />
+        <span>Выйти</span>
+      </div>
+    </header>
+    <!-- пизда шапке -->
+    <div class="main">
+      <h4>Афиша</h4>
+      <div class="card_list">
+        <div class="card">
+          <img class="card_image" src="images/tor.png" />
+          <span>Енот</span>
+          <span class="card_discription">Описание</span>
+          <!-- к странице -->
+          <a href="enot.html" class="card_more_button">Подробнее</a>
+        </div>
+        <div class="card">
+          <img class="card_image" src="images/dog.png" />
+          <span>Собачка</span>
+          <span class="card_discription">Описание</span>
+          <a class="card_more_button">Подробнее</a>
+        </div>
+        <div class="card">
+          <img class="card_image" src="images/usach.png" />
+          <span>Усатый</span>
+          <span class="card_discription">Описание</span>
+          <a class="card_more_button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js" />
+    <script type="text/javascript" src="shpora.js" />
+  </body>
+</html>
